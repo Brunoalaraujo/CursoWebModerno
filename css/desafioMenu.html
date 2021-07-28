@@ -7,7 +7,85 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
+        *{
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: lightgray;
+            font-family: 'Oswald', sans-serif;
+            color: white;
+        }
+        
+        .cabecalho {
+            background-color: rgba(0, 0, 0, 0.748);
+            border-bottom: solid 5px rgba(135, 207, 235, 0.583);
+            height: 80px;
+            box-sizing: content-box;
+        }
+        
+        .logo {
+            display: inline-block;
+            height: 80px;
+            padding: 15px;
+        }
+        
+        .log img {    
+            height: 100%; 
+        }
+
+        .menu-toggle {
+            float: right;
+            color: #eee;
+            background-color: #555;
+            border: solid 1px #777;
+            border-radius: 5px;
+            height: 40px;
+            padding: 10px 20px;
+            margin: 20px 15px;
+        }
+        
+        .menu {
+            display: inline-block;
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;   
+        }
+
+
+        .menu ul {
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            display: inline-block;
+        }
+        .menu a {
+           text-decoration: none;
+           color: white;
+           padding: 15px;
+           font-size: 1.3em;
+        }
+       nav a:hover{
+           background-color: rgba(135, 207, 235, 0.583);
+           color: black;
+       }
+       .botao.destaque {
+           background-color: red;
+           padding: 10px;
+           border-radius: 20px;
+       }
+       .autenticacao {
+           margin-left: 60px;
+           margin-top: 30px;
+        }
+        .autenticacao a {
+            text-decoration: none;
+            color: white;
+       }
+
+     
+
     </style>
 </head>
 
